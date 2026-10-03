@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Serveur WebSocket local (port 5570) + manette PS5 (GameController). -->
+	<!-- Pas de sandbox en développement : le serveur réseau écoute librement. -->
+
+	<!-- CONTRÔLE VOCAL : micro + reconnaissance vocale (Speech framework)   -->
+	<!-- pour piloter la flotte à la voix (« décolle », « avance »…).       -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Airborne Commander écoute le micro pour piloter la flotte de drones à la voix.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Airborne Commander transforme votre voix en commandes de vol pour la flotte de drones.</string>
+</dict>
+</plist>
